@@ -8,7 +8,7 @@
 
 submitted = ["Alice", "Bob", "Charlie", "David"]
 attended = ["Charlie", "Eve", "Alice", "Frank"]
-if ("Alice" in submitted and attended):
+if ("Alice" in submitted and "Alice" in attended):
     print("Alice attended class and submitted their assignment, well done Alice!")
 else:
     pass
